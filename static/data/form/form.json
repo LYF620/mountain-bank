@@ -1,0 +1,35 @@
+
+{  
+  "fields": [
+    {
+      "id": "report_time",
+      "title": "考勤时间",
+      "type": "time",
+      "rule": [
+        true,
+        "100",
+        "0",
+        10
+      ]
+    },
+    {
+      "id": "gender",
+      "title": "部门",
+      "type": "select",
+      "values": {
+        "0": "存款部门",
+        "1": "贷款部门",
+        "2": "理财部门"
+      }
+    },
+    {
+      "id": "nationality",
+      "title": "备注",
+      "type": "text",
+      "values": {
+        "0": "",
+        "1": ""
+      }
+    }
+  ]
+}
